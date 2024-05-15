@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>visitKakanj</title>
+    <link rel="icon" type="image/x-icon" href="images/city_icon.png">
+    <link rel="stylesheet" href="styles.css" />
+
+
+    <!--font links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Autour+One&display=swap" rel="stylesheet"/>
+    <!--icon library-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  </head>
+
+  <body>
+    <!--header section begins-->
+    <section class="head">
+      <header>
+        <a href="#" class="title">
+          <img src="images/city_icon.png" class="logo"/>
+          <span class="visit">visit</span><span class="Kakanj">Kakanj</span>
+        </a>
+        <nav class="navbar">
+
+          <div class="dropdown">
+            <a href="#home" class="dropbtn"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+              <div class="dropdown-content">
+                <a href="#intro">Welcome!</a>
+                <a href="#aboutKakanj">About Kakanj</a>
+                <a href="#popular">Popular</a>
+                <a href="#contactUs">Contact us</a>
+              </div>
+          </div>
+
+          <div class="dropdown">
+            <a href="discover.html" class="dropbtn"><i class="fa fa-globe" aria-hidden="true"></i> Discover</a>
+              <div class="dropdown-content">
+                <a href="discover.html#nature">Nature</a>
+                <a href="discover.html#places">Facilities</a>
+                <a href="discover.html#industry">Industry</a>
+                <a href="discover.html#food">Food and Restaurants</a>
+                <a href="discover.html#food">Shopping</a>
+              </div>
+          </div>
+          
+          <a href="#history" class="dropbtn"><i class="fa fa-book" aria-hidden="true"></i> History</a>
+          <a href="interesting" class="dropbtn"><i class="fa fa-star-o" aria-hidden="true"></i> Interesting</a>
+          <a href="map.html" class="dropbtn"><i class="fa fa-map-o" aria-hidden="true"></i> Map</a>
+        </nav>
+      </header>
+
+      <div class="contact">
+        <div class="mail">
+          <i class="fa fa-envelope" aria-hidden="true"> </i>
+          <span>info@visitKakanj.ba</span>
+        </div>
+        <div class="phone">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <span>+387 32 874 108</span>
+        </div>
+
+        <button class="openButton" id="openButton" onclick="openForm()">Rate Kakanj</button>
+
+        <div class="search">
+          <i class="fa fa-search" aria-hidden="true"> </i>
+          <input type="text" placeholder="  search..." />
+        </div>
+
+      </div>
+    </section>
+    <!--header section ends-->
+
+    <section class="intro">
+      <h1>Welcome to <span>Kakanj</span>!</h1>
+      <p id="sentence1">A small town with a lot to offer!</p>
+      <p id="sentence2">
+        Visit Kakanj and convince yourself that not only big cities are
+        entertaining!
+      </p>
+    </section>
+
+      <h4>What you need to know about Kakanj:</h4>
+      <hr class="about">
+
+    <!--about Kakanj section starts-->
+    <section class="aboutKakanj" id="aboutKakanj">
+      <div class="circle1"></div>
+
+      
+        <div class="textBox">
+          <div class="info">
+            <p>Kakanj is a municipality in BiH.</p>
+            <img src="images/countries.png" alt="">
+          </div>
+          <div class="info">
+            <p>Located in the <span>center</span> of the country.</p>
+            <img src="images/map.png" alt="">
+          </div>
+          <div class="info">
+            <p>Number of residents: <span>37 441</span></p>
+            <img src="images/ancestors.png" alt="">
+          </div>
+          <div class="info"> 
+            <p>Canton: Zeničko-dobojski</p>
+            <img src="images/home.png" alt="">
+          </div>
+          <div class="info"><p>Municipality area: <span>462 km <sup>2</sup></span></p>
+          <img src="images/central-park.png" alt="">
+         </div>
+         </div>
+      
+      
+    </section>
+     <!--about Kakanj section ends-->
+
+    <h4>Popular places to see: </h4>
+    <hr>
+
+     <!--places section -->
+    <section class="popular" id="popular">
+      
+      <div class="slidesContainer">
+          <div class="slide1">
+            <div class="textBox">
+              <h2>Kraljeva Sutjeska</h2>
+              <p>Visit one of the oldest mosques in our country which was build in
+                1463. when Ottoman Sultan Fatih was going to conquer Bobovac!
+                Small, traditional mosque that brings inner peace!</p>
+              <a href="sutjeska.html">View more</a>
+            </div>
+            <div class="imgBox">
+              <img src="images/ksDžamija.jpg" alt="mosque in Kraljeva Sutjeska"/>
+            </div>
+          </div>
+
+          <div class="slide2">
+            <div class="textBox">
+              <h2>Old town Bobovac</h2>
+              <p>Bobovac is a fortified city of medieval Bosnia and Herzegovina. 
+                Located near today's Vareš and the village of Borovica. 
+                It is a protected site as a National monument of Bosnia and Herzegovina.</p>
+              <a href="bobovac.html">View more</a>
+            </div>
+            <div class="imgBox">
+              <img src="images/Bobovac.jpeg" alt="old town Bobovac"/>
+            </div>
+          </div>
+
+          <div class="slide3">
+            <div class="textBox">
+              <h2>Franciscan friary</h2>
+              <p>Kraljeva Sutjeska is a Bosnian Franciscan monastery in Bosnia and Herzegovina. 
+                It includes a museum in which it houses historical treasures, 
+                a library which keeps rare and valuable historical records. </p>
+              <a href="friary.html">View more</a>
+            </div>
+            <div class="imgBox">
+              <img src="images/monastery.jpg" alt="Franciscan friary"/>
+            </div>
+          </div>
+
+          <div class="slide4">
+            <div class="textBox">
+              <h2>Ponijeri mountain</h2>
+              <p>Beautiful mountain located 20km from the center of Kakanj, 
+                and on the height of 1100 meters above the sea level. Its Popular
+                tourist spot especially during winter season. </p>
+              <a href="ponijeri.html">View more</a>
+            </div>
+            <div class="imgBox">
+              <img src="images/ponijeri2.jpg" alt="mosque in Kraljeva Sutjeska"/>
+            </div>
+          </div>
+       </div>
+    </section>
+
+    <footer>
+      <section class="mainBox" id="contactUs">
+        <div class="box1">
+          <span class="title">Subscribe:</span> <br>
+          <label for="email">Follow our newsletter to stay updated for future events. </label>
+            <div class="row">
+              <input id="email" name="email" placeholder ="enter your mail..." type="email" required /> <br><button class="subscribeButton" id="subscribeButton" onclick="showSubscribeMessage()">></button>
+            </div>
+              
+              <div class="subscribeMessage" id="subscribeMessage">
+                <p>*You are now subscribed!</p>
+              </div>
+        </div>
+        
+        <div class="box2">
+          <span class="title">Contact us:</span><br>
+          <p>Alije Izetbegovića 171 <br>
+             72 240 Kakanj <br>
+             info@visitKakanj.ba <br>
+             visitKakanj.ba <br>
+             +387 32 874 108 <br>
+          </p>
+        </div>
+
+        <div class="box3">
+          <a href="#" class="title">
+            <img src="images/city_icon.png" class="logo"/>
+            <span class="visit">visit</span><span class="Kakanj">Kakanj</span>
+            </a>
+            <img src="images/crest.png" alt="crest of Kakanj">           
+        </div>
+        
+      </section>
+      <hr class="fline">
+      <div class="rights">
+        <p>All rights reserved &copy; Made by Sadžida Valjevac / International University of Sarajevo 2023</p></div>
+    </footer>
+
+    <div class="overlay" id="overlay">
+    <section class="survey" id="survey">
+      <div class="textBox">
+          <h1>Survey form</h1>
+          <p>Please tell us about your experience while visiting Kakanj.</p>
+      </div>
+      <div id="closeButton" onclick="closeForm()" class="closeButton">&times;</div>
+      <form>
+      <fieldset>
+          <label for="name">First name:</label> <br>
+          <input type="text" size="20" id="firstName" placeholder=""> <br>
+          <label for="lastName">Last name: </label> <br>
+          <input type="text" size="20" id="lastName"> <br>
+          <label for="email" required >E-mail: </label> <br>
+          <input type="email" id="email"> <br>
+          <label for="age" >Age:</label> <br>
+          <select name="" id="age">
+              <option value="0"> (Select one) </option>
+              <option value="1">child</option>
+              <option value="2">teenager</option>
+              <option value="3">adult</option>
+              <option value="4">elder</option>
+          </select>  
+      </fieldset>
+
+      <fieldset>
+          <label for="suggestions">Suggestions/critics: </label> <br>
+              <textarea id="suggestions" cols="5" rows="1" placeholder="Write whatever you think of Kakanj..."></textarea> <br>
+          <label for="rate">How do you rate your visit in Kakanj? <br>
+              <div class="star"> 
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+          </label>           
+      </fieldset>
+      <br>
+          <a class="submitButton" id="submitButton" onclick="submitForm()">Submit your answers</a>
+  </form>
+  </section>
+</div>
+
+<div id="overlay2" class="overlay2" onclick="closeMessage()">
+  <div class="submitMessage">
+    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+    <p>Thank you for giving your feedback! <br>  <span>See you next time!</span></p>
+  </div>
+</div>
+
+<a href="#" class="goTop" id="goTop"><i class="fa fa-arrow-up"></i></a>
+  </body>
+
+  <script src="script.js"></script>
+</html>

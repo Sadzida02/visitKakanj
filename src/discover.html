@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--<link href="/dist/output.css" rel="stylesheet"> -->
+    <title>Discover</title>
+    <link rel="icon" type="image/x-icon" href="images/city_icon.png">
+    <script src="script.js"></script>
+
+     <!--font links-->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Autour+One&display=swap"
+       rel="stylesheet"
+     />
+     <!--icon library-->
+     <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+     />
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL, GRAD@48,400,0,0">
+</head>
+<body>
+    <section class="head">
+        <header>
+          <a href="#" class="title">
+            <img src="images/city_icon.png" class="logo"/>
+            <span class="visit">visit</span><span class="Kakanj">Kakanj</span>
+          </a>
+          <nav class="navbar">
+
+            <div class="dropdown">
+              <a href="index.html" class="dropbtn"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                <div class="dropdown-content">
+                  <a href="index.html#intro">Welcome!</a>
+                  <a href="index.html#aboutKakanj">About Kakanj</a>
+                  <a href="index.html#places">Popular</a>
+                  <a href="index.html#contactUs">Conatct us</a>
+                </div>
+            </div>
+  
+            <div class="dropdown">
+              <a href="discover.html" class="dropbtn"><i class="fa fa-globe" aria-hidden="true"></i> Discover</a>
+                <div class="dropdown-content">
+                  <a href="#nature">Nature</a>
+                  <a href="#places">Facilities</a>
+                  <a href="#industry">Industry</a>
+                  <a href="#food">Food and Restaurants</a>
+                  <a href="#food">Shopping</a>
+                </div>
+            </div>
+
+            <a href="#history" class="dropbtn"><i class="fa fa-book" aria-hidden="true"></i> History</a>
+            <a href="interesting" class="dropbtn"><i class="fa fa-star-o" aria-hidden="true"></i> Interesting</a>
+            <a href="map.html" class="dropbtn"><i class="fa fa-map-o" aria-hidden="true"></i> Map</a>
+          </nav>
+        </header>
+  
+        <div class="contact">
+          <div class="mail">
+            <i class="fa fa-envelope" aria-hidden="true"> </i>
+            <span>info@visitKakanj.ba</span>
+          </div>
+          <div class="phone">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <span>+387 32 874 108</span>
+          </div>
+  
+          <button class="openButton" id="openButton" onclick="openForm()">Rate Kakanj</button>
+  
+          <div class="search">
+            <i class="fa fa-search" aria-hidden="true"> </i>
+            <input type="text" placeholder="  search..." />
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="text">
+        
+        <p class="main">Kakanj, a town in Bosnia and Herzegovina, offers a variety of attractions for visitors to explore. The historic Old Town, with its charming Ottoman architecture and cobblestone streets, is a must-visit destination. Here, you can wander through the narrow alleyways, visit the Kraljeva Sutjeska Monastery, and admire the ancient stone bridge, all steeped in centuries of history.<br><br>
+
+        <p class="additional">  The Stari Grad Fortress, perched on a hill overlooking the town, provides breathtaking panoramic views of the surrounding countryside. Nature enthusiasts will find peace in natural beauty of Kakanj. The viewpoint Tajan, located nearby, is a serene oasis where you can relax and enjoy the tranquility of nature. <br> 
+          
+          Kakanj is also known for its coal mining heritage, and a visit to the Zenica Mining Museum offers a unique insight into the town's industrial past. For those interested in religious sites, the Kakanj Mosque and the Orthodox Church of the Holy Trinity are significant places of worship and architectural beauty.
+          
+          The Bobovac Fortress, a short drive from Kakanj, is another historical gem. It was once the capital of the Bosnian Kingdom and boasts well-preserved medieval ruins.</p></p>
+      </section>
+
+      
+        <div class="sliders-nature" id="nature">
+          <h1 class="d">Natural destinations:</h1>
+
+          <div class="container">
+            <i id="prev-slide"class="slide-button fa fa-solid fa-chevron-left "></i>
+            <div class="slider-wrapper">
+              
+              <section class="gallery nature">
+                
+                <div class="card">
+                  <img src="images/malak.jpg" alt="">
+                  <a href="malak.html">Malak Farm</a>
+                </div>
+                <div class="card">
+                  <img src="images/swamp.webp" alt="">
+                  <a href="bistrik.html">The Bistrik swamp</a>
+                </div>
+                <div class="card">
+                  <img src="images/bobovac.jpg" alt="">
+                  <a href="bobovac.html">Old Town Bobovac</a>
+                </div>
+                <div class="card">
+                  <img src="images/tajan.png" alt="">
+                  <a href="tajan.html">Viewpoint Tajan</a>
+                </div>
+                <div class="card">
+                  <img src="images/bočica.jpg" alt="">
+                  <a href="bocica.html">Mountain lodge Bočica</a>
+                </div>
+                <div class="card">
+                  <img src="images/mountain.jpg" alt=""> 
+                    <a href="ponijeri.html">Ponijeri Mountain</a>
+                </div>
+              </section>
+              
+            </div>
+            <i id="next-slide" class="slide-button fa fa-solid fa-chevron-right fa-beat"></i> <hr>
+            
+          </div>
+        </div>
+
+        <div class="sliders-places" id="places">
+          <h1 class="d">Historical buildings and facilities:</h1>
+
+          <div class="container">
+            <i id="prev-slide"class="slide-button fa fa-solid fa-chevron-left "></i>
+            <div class="slider-wrapper">
+              
+              <section class="gallery places">
+                <div class="card">
+                  <img src="images/KRaljevaSutjeska.jpg" alt="">
+                  <a href="sutjeska.html">Kraljeva Sutjeska</a>
+                </div>
+                <div class="card">
+                  <img src="images/opcina.jpg" alt="">
+                  <a href="">Municipality Building</a>
+                </div>
+                <div class="card">
+                  <img src="images/muzej.jpg" alt="">
+                  <a href="">Town Museum</a>
+                </div>
+                <div class="card">
+                  <img src="images/biblioteka.png" alt="">
+                  <a href="">Town Library</a>
+                </div>
+                <div class="card">
+                  <img src="images/dzamija.jpg" alt="">
+                  <a href="">Central Mosque</a>
+                </div>
+                <div class="card">
+                  <img src="images/samostan.jpg" alt="">
+                  <a href="friary.html">Franciscan friary</a>
+                </div>
+                <div class="card">
+                  <img src="images/crkva.jpg" alt="">
+                  <a href="">Cathedral</a>
+                </div>
+                <div class="card">
+                  <img src="images/sahat-kula.jpg" alt="">
+                  <a href="">Clock Tower</a>
+                </div>
+                <div class="card">
+                  <img src="images/dzamija2.jpg" alt="">
+                  <a href="">White Mosque</a>
+                </div>
+              </section>
+              
+            </div>
+            <i id="next-slide" class="slide-button fa fa-solid fa-chevron-right fa-beat"></i> <hr>
+          </div>
+        </div>
+
+        <div class="slidersindustry" id="industry">
+          <h1 class="d">Industrial sites:</h1>
+
+          <div class="container">
+            <i id="prev-slide"class="slide-button fa fa-solid fa-chevron-left "></i>
+            <div class="slider-wrapper">
+              
+              <div class="gallery">
+                <div class="card">
+                  <img src="images/termoelektrana.jpg" alt="">
+                  <a href="">Thermal power plant Kakanj</a>
+                </div>
+                <div class="card">
+                  <img src="images/rudnik.jpg" alt="">
+                  <a href="">Brown Coal Mine Kakanj</a>
+                </div>
+                <div class="card">
+                  <img src="images/cementara.jpg" alt="">
+                  <a href="">Cement Plant Kakanj</a>
+                </div>
+              </div>
+              
+            </div>
+            <i id="next-slide" class="slide-button fa fa-solid fa-chevron-right fa-beat"></i> <hr>
+          </div>
+        </div>
+        
+
+        <section class="food" id="food">
+          <h1 class="d">Restaurants, cafes and shopping:</h1>
+          <div class="boxes">
+            <div class="box">
+              <i class="fa fa-cutlery"></i> <br>
+              <a href="https://maps.app.goo.gl/Ubys9wMBwQTfT1Tp8">Naša Kuća</a> <br>
+              <a href="https://maps.app.goo.gl/5uirD6Dw36Vp4bvX7">SMP ćevapdžinica</a> <br>
+              <a href="https://maps.app.goo.gl/pmWfLBwPXTdPwGpQA">Bosna ćevapdžinica</a> <br>
+              <a href="https://maps.app.goo.gl/cYzpJe1EhHMt79zq7">ADS restaurant</a>
+            </div>
+  
+            <div class="box">
+              <i class="fa fa-coffee" ></i> <br>
+              <a href="https://maps.app.goo.gl/7D35nstbQoozmQ387">Amfora</a> <br>
+              <a href="https://maps.app.goo.gl/55BVsXCxGSJNEvts8">Cafe bar Parlament</a> <br>
+              <a href="https://maps.app.goo.gl/61CUzUiZ4Q5fjwSE9">Cafe Public</a> <br>
+              <a href="https://maps.app.goo.gl/C934r6gFRPp1icw79">Pastry Shop Dolce Vita</a>
+           </div>
+
+           <div class="box">
+            <i class="fa fa-shopping-bag"></i><br>
+            <a href="https://maps.app.goo.gl/eZSEfBFfqq87HjPs7">Real Mall</a> <br>
+            <a href="https://maps.app.goo.gl/eZSEfBFfqq87HjPs7">DM cosmetics</a> <br>
+            <a href="https://maps.app.goo.gl/eZSEfBFfqq87HjPs7">LC waikiki</a> <br>
+            <a href="https://maps.app.goo.gl/xdPVH6pWiETNYaZPA">Bingo</a>
+           </div>
+
+          </div>
+
+        </section>
+      </section>
+      
+
+      <footer>
+        <div class="mainBox" id="contactUs">
+          <div class="box1">
+            <span class="title">Subscribe:</span> <br>
+            <label for="email">Follow our newsletter to stay updated for future events. </label>
+              <div class="row">
+                <input id="email" name="email" placeholder ="enter your mail..." type="email" required /> <br><button class="subscribeButton" id="subscribeButton" onclick="showSubscribeMessage()">></button>
+              </div>
+                
+                <div class="subscribeMessage" id="subscribeMessage">
+                  <p>*You are now subscribed!</p>
+                </div>
+          </div>
+  
+          <div class="box2">
+            <span class="title">Contact us:</span><br>
+            <p>Alije Izetbegovića 171 <br>
+               72 240 Kakanj <br>
+               info@visitKakanj.ba <br>
+               visitKakanj.ba <br>
+               +387 32 874 108 <br>
+            </p>
+          </div>
+  
+          <div class="box3">
+            <a href="#" class="title">
+              <img src="images/city_icon.png" class="logo"/>
+              <span class="visit">visit</span><span class="Kakanj">Kakanj</span>
+              </a>
+              <img src="images/crest.png" alt="crest of Kakanj">           
+          </div>
+          
+        </div>
+        <hr class="fline">
+        <div class="rights">
+          <p>All rights reserved &copy; Made by Sadžida Valjevac / International University of Sarajevo 2023</p></div>
+      </footer>
+    </section>
+
+    
+</body>
+</html>

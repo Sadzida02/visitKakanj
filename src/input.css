@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#vertical-nav a{
+    @apply hover:text-gray-800 hover:bg-light-lila rounded-md p-2 hover:font-bold hover:transition-all;
+}
